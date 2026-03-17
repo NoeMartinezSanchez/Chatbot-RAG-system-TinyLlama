@@ -1,3 +1,16 @@
+---
+title: Chatbot RAG Prepa en Línea SEP
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
+# Tu README existente...
+
 # 🤖 Chatbot RAG para Prepa en Línea SEP
 
 Sistema de asistencia educativa inteligente con **Retrieval-Augmented Generation (RAG)** basado en **TinyLlama**, diseñado para proporcionar soporte 24/7 a estudiantes de Prepa en Línea SEP.
