@@ -7,7 +7,7 @@ LABEL io.spaceflake.title="Prepa en Línea ChatBot"
 LABEL io.spaceflake.description="Chatbot educativo para Prepa en Línea SEP con TinyLlama"
 LABEL io.spaceflake.license="mit"
 LABEL io.spaceflake.author="Tu Nombre"
-LABEL io.spaceflake.tags=["education", "chatbot", "rag", "llm"]
+LABEL io.spaceflake.tags="education, chatbot, rag, llm"
 
 # Establecer directorio de trabajo
 WORKDIR /app
