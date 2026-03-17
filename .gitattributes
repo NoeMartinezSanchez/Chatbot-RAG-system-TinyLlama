@@ -1,0 +1,2 @@
+data/vector_store/*.bin !text !filter !merge !diff
+data/vector_store/*.pkl !text !filter !merge !diff
