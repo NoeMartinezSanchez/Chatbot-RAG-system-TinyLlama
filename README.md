@@ -289,6 +289,35 @@ REPETITION_PENALTY=1.5
 - [ ] Métricas de satisfacción
 - [ ] Documentación de casos de uso
 
+## 🚀 Despliegue en Hugging Face Spaces
+
+El chatbot está desplegado y disponible públicamente en Hugging Face Spaces, lo que permite su acceso 24/7 sin depender de infraestructura local.
+
+### 📊 Especificaciones del Despliegue
+
+| Característica | Detalle |
+|----------------|---------|
+| **Plataforma** | Hugging Face Spaces (Tier Gratuito) |
+| **SDK** | Docker |
+| **Hardware** | CPU básico (2 vCPU · 16 GB RAM) |
+| **Almacenamiento** | ~50 GB SSD |
+| **Modelo Principal** | TinyLlama-1.1B-Chat (cargado desde Hugging Face Hub) |
+| **Vector Store** | FAISS con 89 vectores de conocimiento |
+| **Git LFS** | Utilizado para archivos de índice (.pkl, .bin) |
+
+### 🔧 Configuración del Entorno en la Nube
+
+```yaml
+# Variables de entorno configuradas en HF Spaces
+API_HOST: 0.0.0.0
+API_PORT: 7860
+TEMPERATURE: 0.15
+MAX_NEW_TOKENS: 150
+TOP_K_RESULTS: 3
+SIMILARITY_THRESHOLD: 0.75
+DEBUG: False
+```
+
 ## 📄 Licencia
 
 MIT License - ver archivo [LICENSE](LICENSE) para más detalles.
